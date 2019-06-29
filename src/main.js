@@ -5,6 +5,9 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import AppDate from '@/components/AppDate'
+Vue.component('AppDate', AppDate)
+
 new Vue({
   router,
   store,
